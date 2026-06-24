@@ -14,6 +14,10 @@ data/
 # throwaway pilot / scratch result tables (the full tables ARE committed)
 results/*_pilot.csv
 
+
+
+
+
 # os / editor
 .DS_Store
 .ipynb_checkpoints/
