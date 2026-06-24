@@ -4,11 +4,19 @@ venv/
 __pycache__/
 *.pyc
 
-# data caches (folktables downloads ~1GB here) and outputs
+# data caches (folktables downloads several GB here) — never commit
 data/
-results/
 *.parquet
+
+# run logs (regenerated each run; not part of the released artifact)
+*.log
+
+# throwaway pilot / scratch result tables (the full tables ARE committed)
+results/*_pilot.csv
 
 # os / editor
 .DS_Store
 .ipynb_checkpoints/
+
+# NOTE: results/ notebooks, findings, README, and full result CSVs ARE tracked
+# (the released "reusable artifact"); only the items above are excluded.

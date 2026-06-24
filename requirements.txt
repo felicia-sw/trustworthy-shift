@@ -4,3 +4,6 @@ scikit-learn
 shap
 xgboost
 folktables
+statsmodels
+pandas
+matplotlib
