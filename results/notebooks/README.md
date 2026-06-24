@@ -11,7 +11,7 @@ download, model training, SHAP — lives in the top-level `*.py` scripts and is 
 | `00_synthetic_ground_truth.ipynb` | Controlled synthetic check: the explanation-shift metric fires on benign covariate movement and stays silent under the concept shift that actually hurts accuracy (the appropriate-vs-spurious distinction). Source: `../../week1_demo.py` Part A. | planned |
 | `01_early_warning_test.ipynb` | **Decisive pre-registered test:** does label-free explanation shift predict accuracy drop beyond cheap drift baselines? Result: **NO-GO** (clean null). Source: `../../week2_powered.py`, `../week2_rows_full.csv`. | ✅ done |
 | `02_trade_off_audit.ipynb` | Four-property shift audit (predictive performance, calibration, group fairness, explanation stability) — do they degrade together or trade off? Result: they degrade **independently** (accuracy is a weak proxy). Source: `../../week3_audit.py`, `../week3_audit_full.csv`. | ✅ done |
-| `03_paper_figures.ipynb` | Assembles the final paper exhibits (Tables 1–2, Figures 1–6) from the saved tables; exports to `../figures/`. | planned |
+| `03_paper_figures.ipynb` | Assembles paper exhibits from the saved tables: Table 1 (design), Table 2 (four properties, in-dist vs shifted, with bootstrap CIs), Figure 6 (summary heatmap). Exports to `../tables/` and `../figures/`. Fig 1/4 await `00`. | ✅ done |
 
 ## Conventions
 - **Engine vs dashboard:** `*.py` scripts = reproducible compute; `*.ipynb` = presentation.
