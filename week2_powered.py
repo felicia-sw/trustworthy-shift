@@ -1,5 +1,5 @@
 """
-Week-2 STRENGTHENED early-warning test ( §4 / roadmap step 5).
+Week-2 STRENGTHENED early-warning test (roadmap step 5).
 
 Week-1's real-data go/no-go was underpowered: 8 states, one year, one task, tiny
 accuracy drops -> a single Spearman over 8 points (explanation_shift rho = -0.333,

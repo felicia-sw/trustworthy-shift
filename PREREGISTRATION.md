@@ -1,13 +1,12 @@
 # Pre-registration — Early-warning test (strengthened, powered run)
 
-Committed **before** the powered modeling run, per the blueprint ("the primary
-comparisons are pre-registered before any modeling") and ``. Frozen on
+Committed **before** the powered modeling run, per the project's design guardrail
+that the primary comparisons are pre-registered before any modeling. Frozen on
 2026-06-24. Anything not specified here, or done after seeing results, is
 **exploratory** and will be labeled as such in the paper.
 
-This pre-registers only the **decisive early-warning test** ( §4 / roadmap
-step 5). The full four-property audit (calibration, fairness) is a separate,
-later pre-registration.
+This pre-registers only the **decisive early-warning test**. The full four-property
+audit (calibration, fairness) is a separate, later pre-registration.
 
 ---
 
